@@ -8,17 +8,18 @@ body {
 }
 
 .contenedor {
-  display  : flex;
+  display       : flex;
   flex-direction: column;
 }
 
 .titulo {
-  height: 10vh;
-  text-align      : center;
+  height    : 10vh;
+  text-align: center;
 }
 
 .flex-container {
-  height: 90vh;
+  margin         : 10px;
+  height         : 80vh;
   display        : flex;
   flex-direction : row;
   flex-wrap      : wrap;
@@ -29,9 +30,9 @@ body {
 
 .flex-items {
   background-color: burlywood;
-  padding: 20px;
+  padding         : 10px;
   max-width       : 380px;
-  border-radius: 20px;
+  border-radius   : 20px;
   display         : block;
   flex-grow       : 1;
   flex-shrink     : 1;
@@ -54,6 +55,26 @@ body {
   background: linear-gradient(90deg, rgba(37, 4, 93, 1) 0%, rgba(14, 1, 47, 1) 35%);
 }
 
-.entrada, .salida {
+.entrada button {
+  width        : 80px;
+  margin-left  : 20px;
+  padding      : 5px;
+  border       : none;
+  border-radius: 15px;
+}
+
+.entrada button:hover {
+  color: #342D59;
+  background-color: #D6BCFA;
+}
+
+.entrada,
+.salida {
   padding: 10px;
+}
+
+#salida1,
+#salida2,
+#salida3 {
+  resize: none;
 }
