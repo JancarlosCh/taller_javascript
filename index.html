@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <title>Taller de javascript</title>
+</head>
+
+<body>
+  <div class="contenedor">
+    <div class="titulo">
+      <h1>Taller de javascript</h1>
+    </div>
+    <div class="flex-container">
+      <div class="flex-items">
+        <div class="ejercicio">
+          <h2>Numeros primos</h2>
+        </div>
+        <div class="descripcion">
+          <p>
+            Reciba un número entero N e imprima todos los números primos de 1 hasta N.
+          </p>
+        </div>
+        <div class="entrada">
+          <input type="number" name="numero1" id="numero1" placeholder="Ingresa un número">
+          <button id="btnPrimos">Calcular</button>
+        </div>
+        <div class="salida">
+          <textarea name="salida1" id="salida1" cols="45" rows="10"></textarea>
+        </div>
+      </div>
+
+      <div class="flex-items">
+        <div class="ejercicio">
+          <h2>Sumatoria</h2>
+        </div>
+        <div class="descripcion">
+          <p>
+            Dado un número N, imprima la sumatoria: <br>
+            1<sup>N</sup> + 2<sup>N</sup> + 3<sup>N</sup> + 4<sup>N</sup> + ... + N<sup>N</sup>
+          </p>
+        </div>
+        <div class="entrada">
+          <input type="number" name="numero2" id="numero2" placeholder="Ingresa un número">
+          <button id="btnSumatoria">Calcular</button>
+        </div>
+        <div class="salida">
+          <textarea name="salida2" id="salida2" cols="45" rows="10"></textarea>
+        </div>
+      </div>
+
+      <div class="flex-items">
+        <div class="ejercicio">
+          <h2>Serie de Fibonacci</h2>
+        </div>
+        <div class="descripcion">
+          <p>
+            Dado un número N, imprima los primeros N términos de la serie de Fibonacci.
+          </p>
+        </div>
+        <div class="entrada">
+          <input type="number" name="numero3" id="numero3" placeholder="Ingresa un número">
+          <button id="btnFibonacci">Calcular</button>
+        </div>
+        <div class="salida">
+          <textarea name="salida3" id="salida3" cols="45" rows="10"></textarea>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src="./assets/js/numeros_primos.js"></script>
+  <script src="./assets/js/sumatoria.js"></script>
+  <script src="./assets/js/fibonnaci.js"></script>
+</body>
+
+</html>
